@@ -1,0 +1,105 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0px;
+	background-image: url("../images/bg_2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: 'Rubik', sans-serif;
+}
+
+
+.element {
+	font-family: 'Rubik', sans-serif;
+	color: rgb(224, 246, 211);
+	text-shadow: 2px 2px 5px rgba(224, 246, 211, 0.55);
+	padding: 0px 40px 0px 40px;
+	text-decoration: none;
+}
+
+/*========================================================*/ 
+/*====================Панель навигации====================*/
+/*========================================================*/
+
+.navigation-bar {
+	background-color: rgba(108, 86, 108, 0.6);
+	border: 2px solid rgb(239, 100, 97);
+	border-radius: 10px;
+	margin: 20px 40px 0px 40px;
+	box-shadow: 6px 6px 6px 1px rgba(239, 100, 97, 0.55);
+	overflow: hidden;
+}
+
+.navigation-bar .element {
+	font-size: 25px;
+	display: inline-block;
+}
+
+.navigation-bar li {
+	display: inline;
+}
+
+.navigation-bar .element:hover {
+	transform: scale(1.2);
+	transition: 400ms;
+}
+
+/*========================================================*/
+/*========================================================*/
+/*========================================================*/
+
+
+#history {
+	background-color: rgba(108, 86, 108, 0.6);
+	border: 2px solid rgb(239, 100, 97);
+	border-radius: 10px;
+	margin: 100px 160px 100px 160px;
+	box-shadow: 6px 6px 6px 1px rgba(239, 100, 97, 0.55);
+	overflow: hidden;
+}
+
+#history .element {
+	font-size: 18px;
+	display: inline-block;
+}
+
+#history a {
+	padding: 0;
+	text-shadow: 2px 2px 5px rgba(224, 246, 211, 1);
+}
+
+/*===============================================*/
+/*====================Подвал=====================*/
+/*===============================================*/
+
+footer {
+	background-color: rgba(108, 86, 108, 0.6);
+	border-top: 2px solid rgb(239, 100, 97);
+	bottom: 0;
+	box-shadow: 6px 6px 6px 1px rgba(239, 100, 97, 0.55);
+	justify-content: left;
+}
+
+footer .element{
+	font-size: 18px;
+	display:inline-block;
+}
+
+footer .element a {
+	padding: 0;
+}
+
+footer a:hover {
+	transform: scale(1.05);
+	transition: 400ms;
+}
+
+/*===============================================*/
+/*===============================================*/
+/*===============================================*/
+
+

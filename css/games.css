@@ -1,0 +1,114 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0px;
+	background-image: url("../images/bg_3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: 'Rubik', sans-serif;
+}
+
+.element {
+	font-family: 'Rubik', sans-serif;
+	color: rgb(199, 199, 232);
+	text-shadow: 2px 2px 5px rgba(199, 199, 232, 0.55);
+	padding: 0px 40px 0px 40px;
+	text-decoration: none;
+}
+
+/*========================================================*/ 
+/*====================Панель навигации====================*/
+/*========================================================*/
+
+.navigation-bar {
+	background-color: rgba(48, 115, 219, 0.6);
+	border: 2px solid rgb(230, 206, 123);
+	border-radius: 10px;
+	margin: 20px 40px 0px 40px;
+	box-shadow: 6px 6px 6px 1px rgba(230, 206, 123, 0.55);
+	overflow: hidden;
+}
+
+.navigation-bar .element {
+	font-size: 25px;
+	display: inline-block;
+}
+
+.navigation-bar li {
+	display: inline;
+}
+
+.navigation-bar .element:hover {
+	transform: scale(1.2);
+	transition: 400ms;
+}
+
+/*========================================================*/
+/*========================================================*/
+/*========================================================*/
+
+#games {
+	background-color: rgba(48, 115, 219, 0.6);
+	border: 2px solid rgb(230, 206, 123);
+	border-radius: 10px;
+	margin: 100px 160px 100px 160px;
+	box-shadow: 6px 6px 6px 1px rgba(230, 206, 123, 0.55);
+	overflow: hidden;
+}
+
+
+#games .element {
+	font-size: 18px;
+	display: inline-block;
+}
+
+#games li .element:hover {
+	transform: scale(1.1);
+	transition: 200ms;
+}
+
+#games ul {
+	list-style: none;
+}
+
+#games ul li::before {
+	content: "\2022";
+	color: rgb(199, 199, 232);
+	font-weight: bold;
+	display: inline-block;
+}
+
+
+/*===============================================*/
+/*====================Подвал=====================*/
+/*===============================================*/
+
+footer {
+	background-color: rgba(48, 115, 219, 0.6);
+	border-top: 2px solid rgb(230, 206, 123);
+	bottom: 0;
+	box-shadow: 6px 6px 6px 1px rgba(230, 206, 123, 0.55);
+	justify-content: left;
+}
+
+footer .element{
+	font-size: 18px;
+	display:inline-block;
+}
+
+footer .element a {
+	padding: 0;
+}
+
+footer a:hover {
+	transform: scale(1.05);
+	transition: 400ms;
+}
+
+/*===============================================*/
+/*===============================================*/
+/*===============================================*/
