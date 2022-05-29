@@ -89,8 +89,9 @@ body {
 
 footer {
 	background-color: rgba(48, 115, 219, 0.6);
-	border-top: 2px solid rgb(230, 206, 123);
-	bottom: 0;
+	border: 2px solid rgb(230, 206, 123);
+	border-radius: 10px;
+	margin: auto 160px 20px 160px;
 	box-shadow: 6px 6px 6px 1px rgba(230, 206, 123, 0.55);
 	justify-content: left;
 }

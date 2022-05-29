@@ -92,8 +92,9 @@ h1 {
 
 footer {
 	background-color: rgba(54, 104, 153, 0.6);
-	border-top: 2px solid rgb(212, 126, 154);
-	bottom: 0;
+	border: 2px solid rgb(212, 126, 154);
+	border-radius: 10px;
+	margin: auto 160px 20px 160px;
 	box-shadow: 6px 6px 6px 1px rgba(212, 126, 154, 0.55);
 	justify-content: left;
 }

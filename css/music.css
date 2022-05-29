@@ -64,6 +64,10 @@ body {
 	display: inline-block;
 }
 
+#music a {
+	padding: 0;
+	text-shadow: 2px 2px 5px rgba(255, 234, 195, 1);
+}
 
 /*===============================================*/
 /*====================Подвал=====================*/
@@ -71,9 +75,9 @@ body {
 
 footer {
 	background-color: rgba(5, 52, 103, 0.6);
-	border-top: 2px solid rgb(72, 124, 161);
-	bottom: 0;
-	margin: auto 0px 0px 0px;
+	border: 2px solid rgb(72, 124, 161);
+	border-radius: 10px;
+	margin: auto 160px 20px 160px;
 	box-shadow: 6px 6px 6px 1px rgba(72, 124, 161, 0.55);
 	justify-content: left;
 }
